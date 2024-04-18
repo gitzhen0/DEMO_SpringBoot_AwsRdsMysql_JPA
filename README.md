@@ -1,5 +1,5 @@
 * purpose: a demo for how to use basic aws rds mysql, springboot, JPA
-* Author: myself + gpt
+* Author: myself, gpt
 * completeness: 100%
 * start date: 4/18/2024
 * finished date: 4/18/2024
