@@ -43,6 +43,7 @@ public class CustomerController {
         return ResponseEntity.ok(customer);
     }
 
+    //provide id in url, other customer properties in requestbody
     @PutMapping("/{id}")
     public ResponseEntity<Customer> updateCustomer(@PathVariable Long id, @RequestBody Customer customer){
         customer.setId(id);
